@@ -86,6 +86,7 @@ Após o carregamento, os dados ficam disponíveis para consulta durante a intera
 ### Como os dados são usados no prompt?
 
 Os dados não são inseridos integralmente no *system prompt*. A estratégia adotada é fazer uma **consulta dinâmica**, de acordo com a intenção da pergunta feita pelo usuário.
+Para simplificar, podemos inserir os dado em nosso prompt, guarantindo qu o Agente tenha o melhor contexto possível. Lembrando que, em soluções mais robustas, o ideal é que essas informações sejam carregadas dinamicamente para que possamos ganhar flexibilidade.
 
 O fluxo funciona assim:
 
