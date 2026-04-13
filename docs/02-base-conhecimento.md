@@ -193,15 +193,13 @@ PRODUTOS DISPONÍVEIS PARA O ENSINO (data/produtos_financeiros.json):
 
 ## Exemplo de Contexto Montado
 
+O exemplo de contexto montado abaixo, se baseia nos dados originais de base de conhecimento, mas os sintetiza deixando apenas as informações mais relevantes, otimizando assim o consumo de tokens. Entretando vale lembrar que o mais importantes do que economizar tokens, é ter todas as informações relevantes disponíveis em seu contexto.
+
 ```text
 Dados do Cliente:
 - Nome: Luiz Augusto
-- Tipo de cliente: Adolescente
-- Idade: 17 anos
-- Ocupação: Estudante
 - Perfil investidor: Iniciante
 - Renda mensal: R$ 1.250,00
-- Patrimônio total: R$ 550,00
 - Reserva atual: R$ 250,00
 - Objetivo principal: Aprender a organizar gastos, criar hábito de poupar e acompanhar metas simples
 
@@ -210,12 +208,16 @@ Metas atuais:
 - Guardar dinheiro para lazer e estudos até 08/2026
 
 Últimas transações:
-- 01.03.2026: Bolsa Estágio - R$ 1.000,00 (entrada)
-- 15.03.2026: Mesada - R$ 250,00 (entrada)
-- 16.03.2026: Cinema - R$ 25,00 (saída)
-- 25.03.2026: Loja de Calçados - R$ 189,00 (saída)
-- 28.03.2026: Reserva pessoal - R$ 250,00 (saída)
-- 28.03.2026: CDB - R$ 300,00 (saída)
+  Entrada
+- 01.03.2026: Bolsa Estágio - R$ 1.000,00
+- 15.03.2026: Mesada - R$ 250,00
+- Total: R$ 1.250,00
+  Saída
+- 16.03.2026: Cinema - R$ 25,00
+- 25.03.2026: Loja de Calçados - R$ 189,00
+- 28.03.2026: Reserva pessoal - R$ 250,00
+- 28.03.2026: CDB - R$ 300,00
+- Total de saída: 764,00
 
 Histórico de atendimento:
 - 01.03.2026: Dúvida sobre Conta por Objetivos
