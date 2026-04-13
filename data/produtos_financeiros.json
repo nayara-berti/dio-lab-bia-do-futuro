@@ -1,42 +1,26 @@
 [
   {
-    "nome": "Tesouro Selic",
+    "nome": "CDI",
     "categoria": "renda_fixa",
     "risco": "baixo",
-    "rentabilidade": "100% da Selic",
-    "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
+    "rentabilidade": "varia conforme o percentual do CDI",
+    "aporte_minimo": 50.0,
+    "indicado_para": "Iniciantes que querem entender rendimento de forma simples"
   },
   {
-    "nome": "CDB Liquidez Diária",
-    "categoria": "renda_fixa",
+    "nome": "Conta com objetivo",
+    "categoria": "organizacao_financeira",
     "risco": "baixo",
-    "rentabilidade": "102% do CDI",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "rentabilidade": "varia conforme o percentual do CDI",
+    "aporte_minimo": 10.0,
+    "indicado_para": "Quem quer separar dinheiro por meta, como viagem ou curso e adolescentes que estão começando a guardar dinheiro"
   },
   {
-    "nome": "LCI/LCA",
-    "categoria": "renda_fixa",
+    "nome": "Planilha de gastos",
+    "categoria": "educacao_financeira",
     "risco": "baixo",
-    "rentabilidade": "95% do CDI",
-    "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
-  },
-  {
-    "nome": "Fundo Multimercado",
-    "categoria": "fundo",
-    "risco": "medio",
-    "rentabilidade": "CDI + 2%",
-    "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
-  },
-  {
-    "nome": "Fundo de Ações",
-    "categoria": "fundo",
-    "risco": "alto",
-    "rentabilidade": "Variável",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "rentabilidade": "não se aplica",
+    "aporte_minimo": 0.0,
+    "indicado_para": "Usuários que precisam visualizar para onde o dinheiro está indo"
   }
 ]
