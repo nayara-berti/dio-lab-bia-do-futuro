@@ -1,11 +1,13 @@
 data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+01.03.2026,Bolsa Estágio,receita,1000,entrada
+02.03.2026,Cantina,alimentacao,20,saida
+02.03.2026,Uber,transporte,12,saida
+05.03.2026,Curso,educacao,100,saida
+12.03.2026,Cantina,alimentacao,20,saida
+15.03.2026,Mesada,receita,250,entrada
+16.03.2026,Cinema,lazer,25,saida
+22.03.2026,Uber,transporte,16,saida
+25.03.2026,Loja de Calçados,vestuario,189,saida
+27.03.2026,Supermercado,alimentacao,80,saida
+28.03.2026,Reserva pessoal,investimento,250,saida
+28.03.2026,CDB,investimento,300,saida
