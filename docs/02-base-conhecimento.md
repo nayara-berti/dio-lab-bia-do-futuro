@@ -74,19 +74,16 @@ Os arquivos da pasta `data/` são carregados no início da execução do agente 
 Exemplo de carregamento:
 
 ```python
-import pandas as pd
 import json
+import pandas as pd
+from pathlib import Path
 
-# CSVs
-historico = pd.read_csv("data/historico_atendimento.csv")
-transacoes = pd.read_csv("data/transacoes.csv")
+perfil = json.load(open(DATA_DIR / "perfil_investidor.json", "r", encoding="utf-8"))
+transacoes = pd.read_csv(DATA_DIR / "transacoes.csv")
+historico = pd.read_csv(DATA_DIR / "historico_atendimento.csv")
+produtos = json.load(open(DATA_DIR / "produtos_financeiros.json", "r", encoding="utf-8"))
 
-# JSONs
-with open("data/perfil_investidor.json", "r", encoding="utf-8") as f:
-    perfil = json.load(f)
-
-with open("data/produtos_financeiros.json", "r", encoding="utf-8") as f:
-    produtos = json.load(f)
+print("Dados carregados com sucesso!")
 ```
 
 Cada arquivo possui uma função específica no sistema:
