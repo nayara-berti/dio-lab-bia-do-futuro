@@ -2,8 +2,13 @@
 
 > [!TIP]
 > **Prompt Sugerido para esta etapa:**
+> 
 > Preciso organizar a base de conhecimento do meu agente financeiro educativo.
-> Tenho esses arquivos de dados:[data/transacoes.csv; data/produtos_financeiros.json; data/perfil_investidor.json; data/historico_atendimento.csv].
+> Tenho esses arquivos de dados:[data/transacoes.csv;
+> data/produtos_financeiros.json;
+> data/perfil_investidor.json;
+> data/historico_atendimento.csv].
+> 
 > Me ajude a:
 > (1) entender o que cada arquivo contém;
 > (2) decidir como usar cada um;
