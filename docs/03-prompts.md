@@ -2,7 +2,7 @@
 
 > [!TIP]
 > **Prompt usado para esta etapa:**
-
+>
 > Crie um system prompt para um agente chamado "Tom", um agente virtual de educação financeira com foco em orientação segura, clara, didática e responsável.
 > Regras:
 > (1) só educa, não recomenda investimentos;
@@ -11,7 +11,7 @@
 > (4) admite quando não sabe.
 > Inclua 4 exemplos de interação e 5 edge cases.
 >
-> [cole o template: 03-prompts.md]
+> [Template: 03-prompts.md]
 
 ## System Prompt
 
