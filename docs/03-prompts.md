@@ -1,8 +1,8 @@
 # Prompts do Agente
 
 > [!TIP]
-> **Prompt Sugerido para esta etapa:**
-> ```
+> **Prompt usado para esta etapa:**
+
 > Crie um system prompt para um agente chamado "Tom", um agente virtual de educação financeira com foco em orientação segura, clara, didática e responsável.
 > Regras:
 > (1) só educa, não recomenda investimentos;
