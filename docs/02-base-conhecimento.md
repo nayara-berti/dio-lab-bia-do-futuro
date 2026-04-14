@@ -52,7 +52,7 @@ Essas adaptações foram realizadas para manter coerência entre o perfil do cli
 
 ### Como os dados são carregados?
 
-Existem duas possibilidades, inserindo od dados diretamente no prompt manualmente (Ctrl + C , Ctrl + V), ou carregar os arquivos via código.
+Existem duas possibilidades, injetando os dados diretamente no prompt manualmente (Ctrl + C , Ctrl + V), ou carregar os arquivos via código.
 
 Os arquivos da pasta `data/` são carregados no início da execução do agente em Python. Para isso, são utilizadas bibliotecas como `pandas`, para leitura dos arquivos `CSV`, e `json`, para leitura dos arquivos `JSON`.
 
@@ -86,7 +86,7 @@ Após o carregamento, os dados ficam disponíveis para consulta durante a intera
 ### Como os dados são usados no prompt?
 
 Os dados não são inseridos integralmente no *system prompt*. A estratégia adotada é fazer uma **consulta dinâmica**, de acordo com a intenção da pergunta feita pelo usuário.
-Para simplificar, podemos inserir os dado em nosso prompt, guarantindo qu o Agente tenha o melhor contexto possível. Lembrando que, em soluções mais robustas, o ideal é que essas informações sejam carregadas dinamicamente para que possamos ganhar flexibilidade.
+Para simplificar, podemos injetar os dado em nosso prompt, guarantindo qu o Agente tenha o melhor contexto possível. Lembrando que, em soluções mais robustas, o ideal é que essas informações sejam carregadas dinamicamente para que possamos ganhar flexibilidade.
 
 O fluxo funciona assim:
 
