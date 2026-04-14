@@ -12,6 +12,12 @@ O foco está em oferecer interações claras, seguras e personalizadas, aplicand
 
 ## Documentação do Agente
 
+> [!TIP]
+> **Prompt usado para esta etapa:**
+> Me ajuda a documentar um agente de IA financeiro. O caos de uso é um educador financeiro voltado para pessoas que estão iniciando suas finanças, querem organizar seus gastos e manter reservas emergênciais. 
+> Preciso definir: problema que resolve, público-alvo, personalidade do agente, tom de voz e estratégias anti-alucinações.
+> Use o template como base: [01-documentacao-agente.md]
+
 ### Caso de Uso
 
 #### Problema
